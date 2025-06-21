@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Camilly ❤️</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: 'Courier New', monospace;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .texto {
+            font-size: 28px;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 2px solid white;
+            animation: typing 4s steps(25) forwards, blink 0.7s step-end infinite;
+        }
+
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 25ch }
+        }
+
+        @keyframes blink {
+            50% { border-color: transparent }
+        }
+
+        .gif {
+            margin-top: 30px;
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="texto">Camilly, eu te amo! ❤️</div>
+    <img src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" alt="Gatinhos se abraçando" class="gif">
+</body>
+</html>
